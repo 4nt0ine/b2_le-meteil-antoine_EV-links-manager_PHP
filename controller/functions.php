@@ -1,5 +1,6 @@
 <?php
 
+echo("fichier fonction bien installé");
 // Paramètres de connexion à la base de données (à adapter en fonction de votre environnement);
 
 define('HOST', 'localhost');
@@ -61,6 +62,7 @@ function get_link_by_id($link_id)
 function update_link($data)
 {
     // TODO implement function
+    // header('Location: URL');
 }
 
 

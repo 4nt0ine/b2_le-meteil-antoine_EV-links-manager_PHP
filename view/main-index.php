@@ -1,3 +1,5 @@
+
+
 <main>
       <div class="container">
         <div class="row justify-content-center">
@@ -40,28 +42,19 @@
                 class="list-group-item d-flex justify-content-between align-items-center"
               >
                 <a href="https://developer.mozilla.org/fr"> MDN Web docs</a>
-                <span>
-                  <i class="fa-regular fa-pen-to-square me-1 text-warning"></i>
-                  <i class="fa-solid fa-trash ms-1 text-danger"></i>
-                </span>
+                <?php include("components/span.php");?>
               </li>
               <li
                 class="list-group-item d-flex justify-content-between align-items-center"
               >
                 <a href="https://css-tricks.com">CSS tricks</a>
-                <span>
-                  <i class="fa-regular fa-pen-to-square me-1 text-warning"></i>
-                  <i class="fa-solid fa-trash ms-1 text-danger"></i>
-                </span>
+                <?php include("components/span.php");?>
               </li>
               <li
                 class="list-group-item d-flex justify-content-between align-items-center"
               >
                 <a href="https://www.awwwards.com">AWWARDS</a>
-                <span>
-                  <i class="fa-regular fa-pen-to-square me-1 text-warning"></i>
-                  <i class="fa-solid fa-trash ms-1 text-danger"></i>
-                </span>
+                <?php include("components/span.php");?>
               </li>
               <li
                 class="list-group-item d-flex justify-content-between align-items-center"
@@ -69,19 +62,13 @@
                 <a href="https://eilgin.github.io/php-the-right-way"
                   >PHP the right way</a
                 >
-                <span>
-                  <i class="fa-regular fa-pen-to-square me-1 text-warning"></i>
-                  <i class="fa-solid fa-trash ms-1 text-danger"></i>
-                </span>
+                <?php include("components/span.php");?>
               </li>
               <li
                 class="list-group-item d-flex justify-content-between align-items-center"
               >
                 <a href="https://beta.reactjs.org">React.JS New doc</a>
-                <span>
-                  <i class="fa-regular fa-pen-to-square me-1 text-warning"></i>
-                  <i class="fa-solid fa-trash ms-1 text-danger"></i>
-                </span>
+                <?php include("components/span.php");?>
               </li>
             </ul>
           </div>
